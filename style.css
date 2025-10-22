@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    color: #000000
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgb(255, 255, 255);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Projects */
+#projects {
+    padding: 40px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact */
+#contact {
+    padding: 40px 20px;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background: #ff4757;
+    transform: scale(1.05);
+}
