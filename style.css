@@ -12,7 +12,7 @@ header {
     background: rgb(255, 255, 255);
 }
 
-.profile-img {
+.profile-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -80,4 +80,5 @@ header {
 #contact button:hover {
     background: #ff4757;
     transform: scale(1.05);
+
 }
