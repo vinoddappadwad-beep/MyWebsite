@@ -80,5 +80,24 @@ header {
 #contact button:hover {
     background: #ff4757;
     transform: scale(1.05);
-
+    /* Skills Section */
+#skills {
+  padding: 40px;
+  text-align: center;
 }
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 18px;
+  background-color: #222;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
