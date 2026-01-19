@@ -100,4 +100,33 @@ header {
   border-radius: 20px;
   font-size: 15px;
 }
+    about {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #7de2d1, #9df3c4);
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.about-card {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-card p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+    
+
 
