@@ -127,25 +127,32 @@ header {
   color: #333;
   margin-bottom: 15px;
 }
-    navbar {
+.navbar {
   position: sticky;
   top: 0;
   background: #111;
-  padding: 20px;
+  padding: 12px;
   text-align: center;
+  z-index: 1000;
 }
 
-.navbar a {
+.navbar  a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .navbar a:hover {
   color: #00ffcc;
 }
+
+section {
+    sceroll-margin-top: 70px;
+}
     
+
 
 
 
