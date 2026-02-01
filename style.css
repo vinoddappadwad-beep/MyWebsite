@@ -152,6 +152,12 @@ section {
     sceroll-margin-top: 70px;
 }
     
+.navbar a.active {
+  color: #00ffcc;
+  border-bottom: 2px solid #00ffcc;
+}
+    
+
 
 
 
