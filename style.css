@@ -151,3 +151,22 @@ header {
 section {
     sceroll-margin-top: 70px;
 }
+    .contact-links {
+  display: flex;
+  justify-content: center;   /* center madhe yeil */
+  gap: 20px;                 /* links madhye space */
+}
+
+.contact-links a {
+  font-size: 20px;           /* motha text */
+  text-decoration: none;
+  color: blue;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-links a:hover {
+  background-color: #007bff;
+  color: white;
+}
