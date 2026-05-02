@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vinod Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinod's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<!-- Navbar -->
 <nav class="navbar">
   <a href="#about">About</a>
   <a href="#skills">Skills</a>
@@ -18,105 +14,84 @@
   <a href="#contact">Contact</a>
 </nav>
 
-<!-- Hero -->
-<header class="hero">
-    <img src="your-photo.jpg" class="profile-photo">
-
-    <h1>Hi, I'm Vinod 👋</h1>
-
-    <p class="hero-text">
-        BCA Student | Aspiring Python Full Stack Developer <br>
-        I build responsive and user-friendly web applications.
-    </p>
-
-    <a href="#projects" class="btn">View Projects</a>
-    <a href="resume.pdf" class="btn btn-outline" download>Download CV</a>
-
-    <p class="status">🚀 Open to Internship Opportunities</p>
-</header>
-
-<!-- About -->
+    <!-- Header with Image -->
+    <header>
+        <img src="your-photo.jpg" alt="My photo" class="profile-photo">
+        <h1>Hello! I'm Vinod Dappadwad
+             👋</h1>
+        <p>Welcome to my personal portfolio.</p>
+    </header>
+    <!-- About Section -->
 <section id="about">
   <h2>About Me</h2>
-  <p>
-    Hello! I'm Vinod Dappadwad, a BCA student passionate about web development and Python.
-    I am currently looking for internship opportunities to gain real-world experience.
-  </p>
-</section>
 
-<!-- Skills -->
-<section id="skills">
-  <h2>Skills</h2>
+  <div class="about-card">
+    <p>
+      Hello! I'm <strong>Vinod Dappadwad</strong>, a BCA student and aspiring
+      <strong>Python Full Stack Developer</strong>.
+    </p>
 
-  <div class="skills-box">
-    <div>
-      <h3>Frontend</h3>
-      <p>HTML, CSS, JavaScript</p>
-    </div>
-
-    <div>
-      <h3>Backend</h3>
-      <p>Python, PHP, Django</p>
-    </div>
-
-    <div>
-      <h3>Database</h3>
-      <p>MySQL</p>
-    </div>
-
-    <div>
-      <h3>Tools</h3>
-      <p>GitHub, VS Code</p>
-    </div>
+    <p>
+      I am actively looking for <strong>internship opportunities</strong> to gain
+      hands-on experience in web development and work on real-world projects.
+    </p>
   </div>
 </section>
 
-<!-- Projects -->
-<section id="projects">
-    <h2>My Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+  <h3>Personal Portfolio Website</h3>
+  <p>
+    Designed and developed a responsive personal portfolio website using HTML and CSS
+    to showcase my profile, skills, and projects. Hosted on GitHub Pages.
+  </p>
+  <a href="https://vinoddappadwad-beep.github.io/MyWebsite/" target="_blank">
+    View Project
+  </a>
+</div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Description of Project 3</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="project">
-        <h3>Portfolio Website</h3>
-        <p>Responsive portfolio using HTML & CSS</p>
-        <a href="https://vinoddappadwad-beep.github.io/MyWebsite/" target="_blank">Live Demo</a>
-    </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <section id="skills">
+  <h2>Skills</h2>
 
-    <div class="project">
-        <h3>Todo App</h3>
-        <p>Task manager with add/delete feature</p>
-    </div>
-
-    <div class="project">
-        <h3>Login System</h3>
-        <p>Basic login system using PHP & MySQL</p>
-    </div>
+  <ul class="skills-list">
+    <li>Python</li>
+    <li>HTML</li>  
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>java(core)</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+    <li>Django</li>
+    <li>GitHub</li>
+  </ul>
 </section>
 
-<!-- Contact -->
-<section id="contact">
-    <h2>Contact Me</h2>
+    
 
-    <p>Email: vinoddappadwad130@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/" target="_blank">My GitHub</a></p>
-
-    <form>
-        <input type="text" placeholder="Your Name" required><br>
-        <input type="email" placeholder="Your Email" required><br>
-        <textarea placeholder="Message" required></textarea><br>
-        <button type="submit">Send</button>
-    </form>
-</section>
-
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
