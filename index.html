@@ -3,275 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinod Dappadwad | Full Stack Developer</title>
+    <title>Vinod's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Particle Canvas -->
-    <canvas id="particles"></canvas>
-    
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <i class="fas fa-code"></i> Vinod
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+<nav class="navbar">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <div class="profile-card">
-                <div class="profile-image-container">
-                    <img src="your-photo.jpg" alt="Vinod Dappadwad" class="profile-image">
-                    <div class="profile-ring"></div>
-                </div>
-                <h1 class="hero-title">
-                    Hi, I'm <span class="gradient-text">Vinod Dappadwad</span>
-                </h1>
-                <h2 class="hero-subtitle">Python Full Stack Developer</h2>
-                <p class="hero-desc">Crafting amazing web experiences with code ✨</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> View Projects
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-envelope"></i> Hire Me
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+    <!-- Header with Image -->
+    <header>
+        <img src="your-photo.jpg" alt="My photo" class="profile-photo">
+        <h1>Hello! I'm Vinod Dappadwad
+             👋</h1>
+        <p>Welcome to my personal portfolio.</p>
     </header>
-
     <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <h3>Passionate Full Stack Developer</h3>
-                    <p>I'm a BCA student with strong skills in Python, Django, and modern web technologies. Currently seeking internship opportunities to build real-world projects and grow my expertise.</p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <div class="stat-number" data-target="2">0</div>
-                            <div class="stat-label">Projects</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number" data-target="8">0</div>
-                            <div class="stat-label">Skills</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number" data-target="100">0</div>
-                            <div class="stat-label">Hours</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-image">
-                    <div class="floating-card">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="about">
+  <h2>About Me</h2>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section dark-section">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>BCA Student</h3>
-                        <span class="timeline-date">2022 - Present</span>
-                        <p>XYZ College - Pursuing Computer Applications with focus on Web Development</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Freelance Developer</h3>
-                        <span class="timeline-date">2023 - Present</span>
-                        <p>Building personal projects and portfolio websites</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Internship Seeker</h3>
-                        <span class="timeline-date">Open for Opportunities</span>
-                        <p>Actively looking for Python Developer Internships</p>
-                        <a href="#contact" class="btn btn-primary">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="about-card">
+    <p>
+      Hello! I'm <strong>Vinod Dappadwad</strong>, a BCA student and aspiring
+      <strong>Python Full Stack Developer</strong>.
+    </p>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card" data-skill="Python">
-                    <i class="fab fa-python"></i>
-                    <h3>Python</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-card" data-skill="Django">
-                    <i class="fab fa-django"></i>
-                    <h3>Django</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="85%"></div>
-                    </div>
-                </div>
-                <div class="skill-card" data-skill="HTML/CSS">
-                    <i class="fas fa-html5"></i>
-                    <h3>HTML/CSS</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="90%"></div>
-                    </div>
-                </div>
-                <div class="skill-card" data-skill="JavaScript">
-                    <i class="fab fa-js-square"></i>
-                    <h3>JavaScript</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="80%"></div>
-                    </div>
-                </div>
-                <div class="skill-card" data-skill="MySQL">
-                    <i class="fas fa-database"></i>
-                    <h3>MySQL</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="85%"></div>
-                    </div>
-                </div>
-                <div class="skill-card" data-skill="Git">
-                    <i class="fab fa-github"></i>
-                    <h3>Git/GitHub</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="90%"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <p>
+      I am actively looking for <strong>internship opportunities</strong> to gain
+      hands-on experience in web development and work on real-world projects.
+    </p>
+  </div>
+</section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section dark-section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>Modern responsive portfolio with particle effects and animations</p>
-                        <div class="project-tech">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p>Full stack Django app with payment integration</p>
-                        <div class="project-tech">
-                            <span>Django</span>
-                            <span>MySQL</span>
-                            <span>Python</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Task Manager</h3>
-                        <p>Productivity app with CRUD operations</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>JS</span>
-                            <span>CSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+  <h3>Personal Portfolio Website</h3>
+  <p>
+    Designed and developed a responsive personal portfolio website using HTML and CSS
+    to showcase my profile, skills, and projects. Hosted on GitHub Pages.
+  </p>
+  <a href="https://vinoddappadwad-beep.github.io/MyWebsite/" target="_blank">
+    View Project
+  </a>
+</div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Description of Project 3</p>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Get in touch</h3>
-                    <p>Ready for internship opportunities and exciting projects!</p>
-                    <div class="contact-links">
-                        <a href="#" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        <a href="#" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
-                        <a href="#" class="contact-link"><i class="fas fa-envelope"></i> Email</a>
-                    </div>
-                </div>
-                <form id="contactForm" class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="your@email.com" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-paper-plane"></i> Send Message
-                    </button>
-                </form>
-            </div>
-        </div>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
+    <section id="skills">
+  <h2>Skills</h2>
+
+  <ul class="skills-list">
+    <li>Python</li>
+    <li>HTML</li>  
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>java(core)</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+    <li>Django</li>
+    <li>GitHub</li>
+  </ul>
+</section>
+
+    
 
     <script src="script.js"></script>
 </body>
+
 </html>
