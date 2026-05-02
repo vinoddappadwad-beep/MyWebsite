@@ -3,168 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinod's Portfolio</title>
+    <title>Vinod Dappadwad | Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar">
-  <a href="#about">About</a>
-  <a href="#experience">Experience</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<!-- Header with Image -->
-<header>
-    <img src="your-photo.jpg" alt="Vinod Dappadwad" class="profile-photo">
-    <h1>Hello! I'm <span class="gradient-text">Vinod Dappadwad</span> 👋</h1>
-    <p class="header-subtitle">Python Full Stack Developer | BCA Student | Open for Internships</p>
-</header>
-
-<!-- About Section -->
-<section id="about">
-  <h2>About Me</h2>
-  <div class="about-card">
-    <p>
-      Hello! I'm <strong>Vinod Dappadwad</strong>, a passionate <strong>Python Full Stack Developer</strong> and BCA student.
-    </p>
-    <p>
-      I'm actively seeking <strong>internship opportunities</strong> to apply my skills in real-world projects and grow as a developer.
-    </p>
-    <div class="stats">
-      <div class="stat">
-        <i class="fas fa-code"></i>
-        <span>2+ Projects</span>
-      </div>
-      <div class="stat">
-        <i class="fab fa-python"></i>
-        <span>Python Expert</span>
-      </div>
-      <div class="stat">
-        <i class="fas fa-laptop-code"></i>
-        <span>Full Stack</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- EXPERIENCE SECTION - NEW -->
-<section id="experience">
-  <h2>Experience</h2>
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-icon">
-        <i class="fas fa-graduation-cap"></i>
-      </div>
-      <div class="timeline-content">
-        <h3>BCA Student</h3>
-        <h4>XYZ College · 2022 - Present</h4>
-        <p>Currently pursuing Bachelor of Computer Applications with focus on Web Development and Python programming.</p>
-      </div>
-    </div>
+    <!-- Particle Canvas -->
+    <canvas id="particles"></canvas>
     
-    <div class="timeline-item">
-      <div class="timeline-icon">
-        <i class="fas fa-project-diagram"></i>
-      </div>
-      <div class="timeline-content">
-        <h3>Freelance Web Developer</h3>
-        <h4>Self Employed · 2023 - Present</h4>
-        <p>Developed personal portfolio and multiple projects using HTML, CSS, JavaScript, Python, Django and MySQL.</p>
-      </div>
-    </div>
-    
-    <div class="timeline-item">
-      <div class="timeline-icon">
-        <i class="fas fa-laptop-code"></i>
-      </div>
-      <div class="timeline-content">
-        <h3>Python Developer Intern</h3>
-        <h4>Tech Startup (Looking for) · Internship</h4>
-        <p>Actively seeking internship opportunities to gain hands-on experience in full stack development.</p>
-        <a href="#contact" class="btn-primary">Apply Now</a>
-      </div>
-    </div>
-  </div>
-</section>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i> Vinod
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<!-- Skills Section -->
-<section id="skills">
-  <h2>Skills</h2>
-  <ul class="skills-list">
-    <li><i class="fab fa-python"></i> Python</li>
-    <li><i class="fab fa-html5"></i> HTML</li>  
-    <li><i class="fab fa-css3-alt"></i> CSS</li>
-    <li><i class="fab fa-js-square"></i> JavaScript</li>
-    <li><i class="fab fa-java"></i> Java (Core)</li>
-    <li><i class="fab fa-php"></i> PHP</li>
-    <li><i class="fas fa-database"></i> MySQL</li>
-    <li><i class="fab fa-django"></i> Django</li>
-    <li><i class="fab fa-github"></i> GitHub</li>
-  </ul>
-</section>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="profile-card">
+                <div class="profile-image-container">
+                    <img src="your-photo.jpg" alt="Vinod Dappadwad" class="profile-image">
+                    <div class="profile-ring"></div>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Vinod Dappadwad</span>
+                </h1>
+                <h2 class="hero-subtitle">Python Full Stack Developer</h2>
+                <p class="hero-desc">Crafting amazing web experiences with code ✨</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Hire Me
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
 
-<!-- Projects Section -->
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="project-list">
-    <div class="project">
-      <div class="project-icon">
-        <i class="fas fa-globe"></i>
-      </div>
-      <h3>Personal Portfolio Website</h3>
-      <p>Responsive portfolio showcasing skills and projects built with HTML, CSS, JavaScript. Hosted on GitHub Pages.</p>
-      <div class="project-links">
-        <a href="https://vinoddappadwad-beep.github.io/MyWebsite/" target="_blank" class="btn-live">
-          <i class="fas fa-eye"></i> Live Demo
-        </a>
-        <a href="#" class="btn-github">
-          <i class="fab fa-github"></i> Code
-        </a>
-      </div>
-    </div>
-    
-    <div class="project">
-      <div class="project-icon">
-        <i class="fas fa-shopping-cart"></i>
-      </div>
-      <h3>E-Commerce Website</h3>
-      <p>Full stack e-commerce platform using Django, MySQL with user authentication, cart and payment integration.</p>
-      <div class="project-links">
-        <a href="#" class="btn-live">Live Demo</a>
-        <a href="#" class="btn-github">Code</a>
-      </div>
-    </div>
-    
-    <div class="project">
-      <div class="project-icon">
-        <i class="fas fa-tasks"></i>
-      </div>
-      <h3>Task Management App</h3>
-      <p>Python-based task manager with CRUD operations, responsive UI and local storage integration.</p>
-      <div class="project-links">
-        <a href="#" class="btn-live">Live Demo</a>
-        <a href="#" class="btn-github">Code</a>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Passionate Full Stack Developer</h3>
+                    <p>I'm a BCA student with strong skills in Python, Django, and modern web technologies. Currently seeking internship opportunities to build real-world projects and grow my expertise.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="2">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="8">0</div>
+                            <div class="stat-label">Skills</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="100">0</div>
+                            <div class="stat-label">Hours</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="floating-card">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Contact Section -->
-<section id="contact">
-  <h2>Get In Touch</h2>
-  <form id="contactForm">
-    <input type="text" id="name" placeholder="Your Name" required>
-    <input type="email" id="email" placeholder="your@email.com" required>
-    <textarea id="message" placeholder="Tell me about your project or internship opportunity..." required></textarea>
-    <button type="submit">
-      <i class="fas fa-paper-plane"></i> Send Message
-    </button>
-  </form>
-</section>
+    <!-- Experience Section -->
+    <section id="experience" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>BCA Student</h3>
+                        <span class="timeline-date">2022 - Present</span>
+                        <p>XYZ College - Pursuing Computer Applications with focus on Web Development</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Freelance Developer</h3>
+                        <span class="timeline-date">2023 - Present</span>
+                        <p>Building personal projects and portfolio websites</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Internship Seeker</h3>
+                        <span class="timeline-date">Open for Opportunities</span>
+                        <p>Actively looking for Python Developer Internships</p>
+                        <a href="#contact" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script src="script.js"></script>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="Python">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Django">
+                    <i class="fab fa-django"></i>
+                    <h3>Django</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="HTML/CSS">
+                    <i class="fas fa-html5"></i>
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="JavaScript">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="MySQL">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Git">
+                    <i class="fab fa-github"></i>
+                    <h3>Git/GitHub</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern responsive portfolio with particle effects and animations</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full stack Django app with payment integration</p>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>MySQL</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Manager</h3>
+                        <p>Productivity app with CRUD operations</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>JS</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>Ready for internship opportunities and exciting projects!</p>
+                    <div class="contact-links">
+                        <a href="#" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="#" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="contact-link"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="your@email.com" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
