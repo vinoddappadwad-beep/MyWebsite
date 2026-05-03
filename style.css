@@ -170,20 +170,18 @@ section {
   color: white;
 }
   .resume-btn {
-    display: inline-block;
-    background-color: #007bff; /* निळा रंग */
-    color: white !important; /* पांढरा मजकूर */
-    padding: 12px 25px; /* बटणाची साईज वाढवण्यासाठी */
-    margin: 15px 0;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px; /* अक्षरे मोठी करण्यासाठी */
-    border-radius: 8px; /* कोपरे गोल करण्यासाठी */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s ease;
+    display: inline-block !important;
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    padding: 10px 20px !important;
+    margin: 10px 0 !important;
+    text-decoration: none !important;
+    border-radius: 6px !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    border: none !important;
 }
 
 .resume-btn:hover {
-    background-color: #0056b3; /* माऊस नेल्यावर गडद निळा */
-    text-decoration: none;
+    background-color: #0056b3 !important;
 }
