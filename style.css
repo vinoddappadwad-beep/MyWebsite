@@ -5,7 +5,7 @@ body {
     color: #000000
 }
 
-/* Header */
+
 header {
     text-align: center;
     padding: 50px 20px;
@@ -23,7 +23,7 @@ header {
     margin: 0 auto 20px auto;
 }
 
-/* Projects */
+
 #projects {
     padding: 40px 20px;
     background: #f4f4f4;
@@ -51,7 +51,6 @@ header {
     transform: translateY(-10px);
 }
 
-/* Contact */
 #contact {
     padding: 40px 20px;
     background: rgba(255,255,255,0.9);
@@ -80,7 +79,7 @@ header {
 #contact button:hover {
     background: #ff4757;
     transform: scale(1.05);
-    /* Skills Section */
+    
 #skills {
   padding: 40px;
   text-align: center;
@@ -153,12 +152,12 @@ section {
 }
     .contact-links {
   display: flex;
-  justify-content: center;   /* center madhe yeil */
-  gap: 20px;                 /* links madhye space */
+  justify-content: center;   
+  gap: 20px;                 
 }
 
 .contact-links a {
-  font-size: 20px;           /* motha text */
+  font-size: 20px;           
   text-decoration: none;
   color: blue;
   padding: 10px 15px;
@@ -169,4 +168,16 @@ section {
 .contact-links a:hover {
   background-color: #007bff;
   color: white;
+}
+    .resume-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.resume-btn:hover {
+    background-color: #0056b3;
 }
