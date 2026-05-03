@@ -169,15 +169,21 @@ section {
   background-color: #007bff;
   color: white;
 }
-    .resume-btn {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+  .resume-btn {
     display: inline-block;
+    background-color: #007bff; /* निळा रंग */
+    color: white !important; /* पांढरा मजकूर */
+    padding: 12px 25px; /* बटणाची साईज वाढवण्यासाठी */
+    margin: 15px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* अक्षरे मोठी करण्यासाठी */
+    border-radius: 8px; /* कोपरे गोल करण्यासाठी */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
 }
 
 .resume-btn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* माऊस नेल्यावर गडद निळा */
+    text-decoration: none;
 }
